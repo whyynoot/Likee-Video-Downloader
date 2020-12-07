@@ -55,7 +55,7 @@ def download(url, filename):
         print("Eror on download")
 
 def main():
-    user_info = get_user_info(get_user_uid(input("Введите Ссылку на страницу LIKE: ")))
+    user_info = get_user_info(get_user_uid(input("Enter Likee page url: ")))
     print("Got user info!")
     parse_links(user_info[0], user_info[1])
 
